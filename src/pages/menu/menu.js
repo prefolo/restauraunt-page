@@ -51,6 +51,7 @@ function getDishHTMLElement(title, imgPath, imgAlt) {
 	dishContainer.appendChild(img);
 
 	const dishTitle = document.createElement('h1');
+	dishTitle.id = `${title.toLowerCase()}-title`;
 	dishTitle.textContent = title;
 	dishContainer.appendChild(dishTitle);
 

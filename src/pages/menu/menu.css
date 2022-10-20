@@ -1,5 +1,9 @@
 :root{
-    --menu-title-color:rgb(255, 249, 199);
+    --menu-title-sushi-color:rgb(255, 249, 199);
+    --menu-title-lasagna-color:#fcba7a;
+    --menu-title-pizza-color:#db7fff;
+    --menu-title-hamburger-color:red;
+    --menu-title-dessert-color:rgb(255, 249, 199);
     --menu-info-color:rgb(255, 255, 255);
 }
 
@@ -33,12 +37,27 @@
 }
 
 #menu-container h1 {
-    color: var(--menu-title-color);
     font-family: 'Dancing Script';
     font-size: 40px;
     text-align: right;
     text-transform: capitalize;
-    text-shadow: 0px 2px 4px var(--title-shadow-color)
+    text-shadow: 0px 2px 4px var(--title-shadow-color);
+}
+
+#sushi-title {
+    color: var(--menu-title-sushi-color);
+}
+#lasagna-title {
+    color: var(--menu-title-lasagna-color);
+}
+#pizza-title {
+    color: var(--menu-title-pizza-color);
+}
+#hamburger-title{
+    color: var(--menu-title-hamburger-color);
+}
+#dessert-title {
+    color: var(--menu-title-dessert-color);
 }
 
 #menu-container div p {
