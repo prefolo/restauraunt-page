@@ -1,3 +1,5 @@
+import './home.css';
+
 function writeHome() {
 	const container = document.querySelector('#content');
 }
