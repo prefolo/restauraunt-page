@@ -73,4 +73,5 @@ body{
 
 #content{
     flex: 1;
+    padding: 100px 50px;
 }
