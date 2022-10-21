@@ -3,7 +3,8 @@
     --header-title-color:#fff;
     --title-shadow-color:#000;
     --footer-color:#808080;
-    --nav-menu-bg-color:#aaa;
+    --navbar-bg-color:#34414c;
+    --navbar-selected-item-color: #ffaf34;
 }
 
 *{
@@ -42,7 +43,7 @@ body{
         sans-serif;
 
     flex-direction: column;
-    gap: 45px;
+    gap: 20px;
 }
 
 #header h1{
@@ -56,7 +57,7 @@ body{
     list-style: none;
     display: flex;
     gap: 40px;
-    border: 1px solid var(--nav-menu-bg-color);
+    background-color: var(--navbar-bg-color);
     padding: 0 50px;
     border-radius: 100px;
 }
@@ -64,6 +65,10 @@ body{
 #header li {
     cursor: pointer;
     color: cyan;
+}
+
+#header .selectedNavbarItem{
+    color: var(--navbar-selected-item-color);
 }
 
 #footer{

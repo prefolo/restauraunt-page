@@ -1,3 +1,4 @@
+import selectNavbarItem from '../../functions/navbarItemSelector';
 import './menu.css';
 import SushiImage from '../../img/menu-sushi.jpg';
 import HamburgerImage from '../../img/menu-hamburger.jpg';
@@ -34,12 +35,7 @@ function writeMenu() {
 	container.innerHTML = '';
 	container.appendChild(menuContainer);
 
-	document
-		.querySelector('#nav-bar')
-		.querySelectorAll('li')
-		.forEach((listItem) => listItem.classList.remove('currentPage'));
-
-	this.classList.add('currentPage');
+	selectNavbarItem(this);
 }
 
 function getDishHTMLElement(title, imgPath, imgAlt) {

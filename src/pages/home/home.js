@@ -1,3 +1,4 @@
+import selectNavbarItem from '../../functions/navbarItemSelector';
 import './home.css';
 import FoodImage from '../../img/home-food-small.jpeg';
 
@@ -24,6 +25,8 @@ function writeHome() {
 
 	container.innerHTML = '';
 	container.appendChild(homeContainer);
+
+	selectNavbarItem(this);
 }
 
 export default writeHome;
