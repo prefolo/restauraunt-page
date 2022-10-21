@@ -47,6 +47,7 @@ body{
 }
 
 #header h1{
+    text-align: center;
     text-shadow: 0px 3px 4px var(--title-shadow-color);
     color: var(--header-title-color);
     font-size: 48px;
