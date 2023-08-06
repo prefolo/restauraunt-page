@@ -1,6 +1,6 @@
 # Restaurant Page
 
-This is my Todo list in vanilla javascript.
+Simple restaurant home page.
 
 ## How to run the code
 
